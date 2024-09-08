@@ -1,0 +1,93 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+    
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('wlop-fantasy-girl-7680x4320-22749.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:#fff;
+}
+
+.wrap h1{
+    text-align: center;
+}
+
+.wrap{
+    border-color: #fff;
+    background-color:transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    padding-left: 40px;
+   padding-bottom: 40px;
+   padding-right: 40px;
+}
+
+.wrap .kata{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.kata input{
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: aliceblue;
+    width: 200px;
+    height: 30px;
+    color: white;
+    padding: 10px;
+}
+
+.kata i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+}
+
+.kata input::placeholder{
+    color:#fff;
+    padding: center;
+}
+
+.wrap h1 {
+    color: #fff;
+
+}
+
+.login button{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: black;
+    background-color: aliceblue;
+    border-color: aliceblue;
+
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 20px;
+}
+.forgot a {
+    color:white
+
+}
+
+.forgot a :hover{
+    animation: ease-in;
+    text-decoration: dashed;
+}
+
+
