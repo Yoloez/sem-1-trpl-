@@ -1,0 +1,19 @@
+Tarif pembayaran
+tarif_normal = 50000  # Tarif per jam kerja normal
+tarif_lembur = 75000  # Tarif per jam lembur
+batas_jam_normal = 40 # Batas jam kerja normal per minggu
+
+# Meminta input jam kerja dari pengguna
+jam_kerja = float(input("Masukkan total jam kerja dalam seminggu: "))
+
+# Menghitung gaji
+if jam_kerja > batas_jam_normal:
+    jam_lembur = jam_kerja - batas_jam_normal
+    gaji_normal = batas_jam_normal * tarif_normal
+    gaji_lembur = jam_lembur * tarif_lembur
+    total_gaji = gaji_normal + gaji_lembur
+else:
+    total_gaji = jam_kerja * tarif_normal
+
+# Menampilkan total gaji
+print(f"Total gaji yang diterima: Rp{total_gaji}")
