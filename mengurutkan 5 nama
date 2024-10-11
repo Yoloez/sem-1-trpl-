@@ -1,0 +1,8 @@
+y = []
+for i in range(5):
+    x = input()
+    y.append(x)
+
+y.sort()
+for i in y:
+    print(i)
