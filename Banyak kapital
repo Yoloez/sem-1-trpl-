@@ -1,0 +1,7 @@
+x = input()
+banyak_kapital = 0
+for i in x:
+    if i.isupper():
+        banyak_kapital += 1
+
+print(banyak_kapital)
