@@ -1,0 +1,59 @@
+y = input("Masukkan no NIK: ")
+x = list(map(int, y))
+
+if x[0] == 1:
+    print('Sumatra') 
+    if x[6] > 4:
+        print('Perempuan')
+    else:
+        print('Laki-laki')
+elif x[0] == 2:
+    print('Riau')
+    if x[6] > 4:
+        print('Perempuan')
+    else:
+        print('Laki-laki')
+elif x[0] == 3:
+    print('Jawa')
+    if x[6] > 4:
+        print('Perempuan')
+    else:
+        print('Laki-laki')
+elif x[0] == 5:
+    print('Bali dan Nusa Tenggara')
+    if x[6] > 4:
+        print('Perempuan')
+    else:
+        print('Laki-laki')
+elif x[0] == 6:
+    print('Kalimantan')
+    if x[6] > 4:
+        print('Perempuan')
+    else:
+        print('Laki-laki')
+elif x[0] == 7:
+    print('Sulawesi')
+    if x[6] > 4:
+        print('Perempuan')
+    else:
+        print('Laki-laki')
+elif x[0] == 8:
+    print('Maluku')
+    if x[6] > 4:
+        print('Perempuan')
+    else:
+        print('Laki-laki')
+else:
+    print('Papua')
+    if x[6] > 4:
+        print('Perempuan')
+    else:
+        print('Laki-laki')
+
+if x[6] > 4:
+    x[6] = x[6] - 4
+    for i in x[6:12]:
+        print(i, end="")
+else:
+    for i in x[6:12]:
+        print(i, end="")
