@@ -1,0 +1,8 @@
+import pyautogui
+import time
+
+pyautogui.click(x, y) #koordinatnya
+
+for i in range(10):
+    pyautogui.write("halo world")
+    pyautogui.press('enter')
