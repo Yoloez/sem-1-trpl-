@@ -1,0 +1,20 @@
+ujian = int(input())
+tugas = int(input())
+absen = int(input())
+
+rata = (ujian + tugas + absen)/3
+
+if rata >= 85:
+    print('A')
+
+elif rata >= 70 and rata < 85:
+    print('B')
+
+elif rata >= 55 and rata < 70:
+    print('C')
+
+elif rata >= 40 and rata < 55:
+    print('D')
+
+else:
+    print('E')
