@@ -1,0 +1,9 @@
+matrix = []
+for i in range (8):
+    x = input().split()
+    x = list(map(int, x))
+    matrix.append(x)
+for i in range (8):
+    for j in range(8):
+        print(matrix[7-i][7-j], end=' ')
+    print()
