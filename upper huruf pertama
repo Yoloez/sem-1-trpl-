@@ -1,0 +1,5 @@
+x = input('Masukkan kalimat: ')
+x.lower()
+huruf_pertama = x[0].upper()
+huruf_selanjutnya = x[1:].lower()
+print(huruf_pertama + huruf_selanjutnya)
