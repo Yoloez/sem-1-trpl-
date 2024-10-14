@@ -1,0 +1,7 @@
+list_global = [1, 2, 3]
+bilangan = int(input('masukkan bilangan: '))
+def void(bil):
+    for i in bil:
+        print(i + bilangan)
+     
+void(list_global)
