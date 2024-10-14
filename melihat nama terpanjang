@@ -1,0 +1,12 @@
+x = input('masukkan nama: ').split()
+def panjang(n):
+    for i in x:
+        terpanjang = True
+        for j in x:
+            if len(i) < len(j):
+                terpanjang = False
+        if terpanjang:
+            paling_panjang = i
+    return paling_panjang
+    
+print(panjang(x))
