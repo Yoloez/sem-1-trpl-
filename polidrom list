@@ -1,0 +1,7 @@
+palidrom = 0 
+kata = ['katak', 'kodok', 'kasur rusak', 'asem koe']
+kata_reverse = kata[::-1]
+for i in kata:
+    if i == i[::-1]:
+        palidrom += 1
+print(palidrom)
