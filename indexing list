@@ -1,0 +1,6 @@
+nama = ['hanan', 'handoko', 'budi', 'rafel', 'fariz', 'hako', 'vidky', 'rakan']
+
+print(nama[-1]) #mengakses indeks terakhir
+print(nama[0:2]) #mengakses indeks 0 sampai 1
+print(nama[::-1]) #membalikkan data dalam list 
+print(nama[1::-1]) #membalikkan data dalam indeks 0 sampai 1
