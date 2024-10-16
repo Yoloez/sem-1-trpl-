@@ -1,0 +1,7 @@
+students = {
+    'nama' : 'Hanan', 
+    'kelas': 'A2', 
+    'sekolah' : 'UGM'
+}
+del students['nama']
+print(students)
