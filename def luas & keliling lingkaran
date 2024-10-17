@@ -1,0 +1,9 @@
+# 1 menghitung luas dan keliling lingkaran (pakai def)
+def luas(r):
+    if r == 0:
+        return 0
+    else:
+        print('Luasnya lingkaran:', 3.14 * r**2)
+        print('keliling lingkaran:',3.14 * 2 * r)
+x = int(input('masukkan jari-jari: '))
+print(luas(x))
