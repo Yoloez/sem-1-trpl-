@@ -1,0 +1,11 @@
+# 4 fungsi rekursif untuk menghitung FPB dari dua bilangan bulat!
+def fpb(a, b):
+    if b == 0:
+        return a
+    else:
+        return fpb(b, a % b)
+
+bilangan1 = int(input('masukkan bilangan bulat pertama: '))
+bilangan2 = int(input('masukkan bilangan bulat kedua: '))
+fpb1 = fpb(bilangan1, bilangan2)
+print(f"FPB dari {bilangan1} dan {bilangan2} adalah: {fpb1}")
