@@ -1,0 +1,10 @@
+# # 3 fungsi yang mengembalikan nilai rata-rata dari N buahbilangan!
+def rata(N):
+    if N == 0:
+        return 0 
+    else:
+        return sum(N)/len(N)
+
+x = input('masukkan bilangan: ').split()
+x = list(map(int, x))
+print(rata(x))
