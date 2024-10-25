@@ -1,4 +1,4 @@
-# Hanan Fijananto/538946
+# Hanan Fijananto
 
 #no 2 
 def konversi(x):
