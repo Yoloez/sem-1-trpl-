@@ -1,4 +1,4 @@
-#Hanan Fijananto/538946
+#Hanan Fijananto
 #no 1 data mahasiswa dan enkripsi
 mhs_lulus = []#variabel yang berisi data mahasiswa yang nilainya 70 keatas
 data = {} #dictionary yang berisi data nama mahasiswa asli, terenkripsi, usia, dan nilai rata-rata
