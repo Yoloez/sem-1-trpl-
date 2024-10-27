@@ -78,7 +78,6 @@ while True:
         for i in data: #untuk setiap i dalam data dictionary, jika rata-rata tiap mahasiswa di atas 70, maka nama mahasiswa yang terenkripsi dimasukkan ke dalam list mhs_lulus
             if data[i]['Rata-rata'] >= 70:
                 mhs_lulus.append(data[i]['Enkripsi'])
-        # print(f'mahasiswa yang lulus(terenkripsi): ')
         print(f'mahasiswa yang lulus(terenkripsi): ')
         for i in mhs_lulus: #memanggil list mhs_lulus agar tidak di dalam list
             print(i, end=', ')
