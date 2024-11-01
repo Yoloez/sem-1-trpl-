@@ -21,7 +21,7 @@ def konversi(x):
     else: #Jika banyak variabel huruf_besar lebih besar dari variabel huruf_kecil, maka mengembalikan nilai x kapital semua.
         return x.upper()
 
-nama = input('Nama: ').split()  
+nama = input('Nama: ').split() #input
 
 for i in nama: #membuat perulangan agar setiap kata pada kalimat dapat dihitung satu-satu.
     print(konversi(i), end=' ')
